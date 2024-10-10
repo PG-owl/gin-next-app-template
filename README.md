@@ -26,11 +26,11 @@ ginとnext.jsを使ったアプリ用のテンプレートリポジトリです
 
 * (*補足*) 
 	``` shell
-	// 全Dockerコンテナを停止する場合のコマンド
-	$ docker stop $(docker ps -q)
+	// Dockerコンテナを停止する場合のコマンド
+	$ docker stop
 	```
 
 	``` shell
-	// 停止した全Dockerコンテナを起動する場合のコマンド
-	$ docker stop $(docker ps -a -q)
+	// Dockerコンテナを起動する場合のコマンド
+	$ docker start
 	```
